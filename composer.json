@@ -1,0 +1,21 @@
+{
+    "name": "project/01",
+    "description": "projeto demo",
+    "authors": [
+        {
+            "name": "Daniel"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "core\\": "core/"
+        },
+        "files": [
+            "config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "mpdf/mpdf": "^8.0"
+    }
+}
