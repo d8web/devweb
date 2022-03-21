@@ -141,16 +141,6 @@ class BlogController {
 
     }
 
-    public function contact() {
-        Functions::Render([
-            "partials/header",
-            "partials/navbar",
-            "pages/contact",
-            "partials/bottom",
-            "partials/footer",
-        ]);
-    }
-
     public function newComment() {
 
         $data = [];
