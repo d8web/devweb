@@ -42,30 +42,30 @@ O banco de dados com todas as tabelas está dentro da pasta material, você pode
 
 Todos os arquivos de **configuração** do projeto estão dentro do arquivo *config.php*.
 
-> date_default_timezone_set("America/Sao_Paulo");
+> date_default_timezone_set("America/Sao_Paulo"); <br/>
 
-> define("APP_NAME",          "Dev LP");
-> define("APP_VERSION",       "1.0.0");
-> define("BASE_URL",          "http://localhost/pastadoprojeto/public/");
+> define("APP_NAME",          "Dev LP"); <br/>
+> define("APP_VERSION",       "1.0.0"); <br/>
+> define("BASE_URL",          "http://localhost/pastadoprojeto/public/"); <br/>
 
-// MYSQL DADOS
-> define("MYSQL_SERVER",      "localhost");
-> define("MYSQL_DATABASE",    "nomedobanco");
-> define("MYSQL_USER",        "usuario");
-> define("MYSQL_PASS",        "senha");
-> define("MYSQL_CHARSET",     "utf8");
+// MYSQL DADOS <br/>
+> define("MYSQL_SERVER",      "localhost"); <br/>
+> define("MYSQL_DATABASE",    "nomedobanco"); <br/>
+> define("MYSQL_USER",        "usuario"); <br/>
+> define("MYSQL_PASS",        "senha"); <br/>
+> define("MYSQL_CHARSET",     "utf8"); <br/>
 
-// AES ENCRIPT
-> define("AES_KEY",           "muf4YDYMw3KeNv7rFkLFRJhkRwapBDVF");
-> define("AES_IV",            "NjWA3sg3vyk6yVk2");
+// AES ENCRIPT <br/>
+> define("AES_KEY",           "muf4YDYMw3KeNv7rFkLFRJhkRwapBDVF"); <br/>
+> define("AES_IV",            "NjWA3sg3vyk6yVk2"); <br/>
 
 // EMAIL
-> define("EMAIL_HOST",        "smtp.gmail.com");
-> define("EMAIL_FROM",        "seuemail@provedor.com");
-> define("EMAIL_PASS",        "senha");
-> define("EMAIL_PORT",        00);
+> define("EMAIL_HOST",        "smtp.gmail.com"); <br/>
+> define("EMAIL_FROM",        "seuemail@provedor.com"); <br/>
+> define("EMAIL_PASS",        "senha"); <br/>
+> define("EMAIL_PORT",        00); <br/>
 
-> define("PERMISSIONS",       [ 0 => "normal", 1 => "sub adminstrador", 2 => "adminstrador" ]);
+> define("PERMISSIONS",       [ 0 => "normal", 1 => "sub adminstrador", 2 => "adminstrador" ]); <br/>
 
 ### Tecnologias
 
