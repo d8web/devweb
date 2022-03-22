@@ -13,7 +13,7 @@
 - [x] Página Home com informações dinâmicas
 - [x] Cadastro de novos usuários com envio de email
 - [x] Página de contato
-- [x] Página d
+- [x] Blog com páginação, pesquisa e filtro por categorias
 
 - [x] Sistema adminstrativo
 - [x] Usuários online
